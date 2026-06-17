@@ -1,7 +1,18 @@
 # AI Startup Due Diligence Assistant
 
 ## Overview
-AI-powered platform that automates startup screening and due diligence.
+AI Startup Due Diligence Assistant is a Generative AI-powered platform designed to automate the preliminary startup evaluation process.
+
+The application enables users to upload startup pitch decks in PDF format and automatically generates structured investment insights including startup summaries, business model analysis, competitor analysis, risk assessment, and investment recommendations.
+
+The project was inspired by my experience as Investment Analyst at India Accelerator, where startup screening and preliminary due diligence formed a critical part of the investment evaluation workflow.
+
+## Project Workflow
+- Upload Startup Pitch Deck
+- Extract Text from PDF
+- Process Startup Information using Gemini AI
+- Generate Due Diligence Report
+- Display Investment Insights and Recommendations
 
 ### Features
 - Upload startup pitch deck PDFs
@@ -24,7 +35,20 @@ AI-powered platform that automates startup screening and due diligence.
 pip install -r requirements.txt
 streamlit run app.py
 ```
+## Sample Report Output
+The platform automatically generates:
+- Startup Summary
+- Problem Being Solved
+- Business Model
+- Target Customers
+- Market Opportunity
+- Competitor Analysis
+- Key Strengths
+- Key Risks
+- Investment Recommendation
+- Startup Score (Out of 10)
 
-## Resume Highlights
-- Collaborated in a team of 2 to develop an AI-powered startup evaluation platform that analyzed 50+ startup pitch decks and automatically generated business summaries, competitor analysis, risk assessments, and investment recommendations.
-- Reduced preliminary startup screening time by approximately 60%, enabling faster evaluation of startup opportunities and accelerating first-level due diligence workflows through automated insight generation.
+## Impact
+- Reduced preliminary startup screening effort through automated report generation.
+- Accelerated first-level due diligence by providing structured investment insights.
+- Improved efficiency of startup evaluation workflows.
